@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfile Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5d223a1d6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5d223a1d6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo"><span>Designs</span>Web</div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#servies">Servies</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            Hi, I'm <span>Chandra Bhushan </span><br />
+            Kumar India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------About----------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about col-1">
+            <img src="mypic-removebg-preview.png" alt="" />
+          </div>
+          <div class="about col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              My name is Chandra Bhushan . I am pursuing my bachelor's degree in
+              BJSEC. College Meerut. I have completed my schooling at
+              Chhatradhari Inter High School in Bihar. I know web Technology
+              like front-end like HTML, CSS,javascript, and React. I am creating
+              web pages that are a food-delivery website e-commerce website,
+              portfolio website, and many small-small web pages. I am currently
+              studying B.tech in the third year. I want an internship in a Good
+              MNC company. My short-term goal is to get a job in Big MNC and my
+              long-term goal is to get a job in 'FAANG'. I have not any
+              experience in the company I am a  Fresher " I am a quick learner
+              and believe in learning from my past mistakes and experience."
+            </p>
+
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web development</span><br />Web developer</li>
+                <li><span>Java </span> <br />Coding</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2024 Current</span><br />Desiging web interface</li>
+                <li><span>2023</span><br />Intership at TPS EMPIRE SERVICES PVT LTD</li>
+                <li><span> </span> <br /></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="eduction">
+              <ul>
+                <li><span>2020</span><br />10th</li>
+                <li><span>2022</span><br />12th</li>
+                <li><span>2022-2026</span><br />B.Tech from BJSEC Meerut</li>
+                <li>
+                  <span>Web-development </span> <br />Our self (in online)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------------sercise----------------->
+    <div id="servies">
+      <div class="container">
+        <h1 class="sub-title">My servies</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+              autem cupiditate dignissimos ratione ipsum expedita a saepe
+              commodi iure, totam quam beatae eaque ducimus voluptatibus
+              asperiores quo! Aperiam voluptas unde sunt repellendus, assumenda
+              animi?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>front-end Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+              autem cupiditate dignissimos ratione ipsum expedita a saepe
+              commodi iure, totam quam beatae eaque ducimus voluptatibus
+              asperiores quo! Aperiam voluptas unde sunt repellendus, assumenda
+              animi?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fas fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+              autem cupiditate dignissimos ratione ipsum expedita a saepe
+              commodi iure, totam quam beatae eaque ducimus voluptatibus
+              asperiores quo! Aperiam voluptas unde sunt repellendus, assumenda
+              animi?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------Portofolio----------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="socila.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Medai App</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione fugit cum beatae recusandae, esse earum mollitia
+                quibusdam quaerat facere rerum.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="OIP (1).jpeg" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione fugit cum beatae recusandae, esse earum mollitia
+                quibusdam quaerat facere rerum.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="download (2).jpeg" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione fugit cum beatae recusandae, esse earum mollitia
+                quibusdam quaerat facere rerum.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!------------------------------contact------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h2 class="sub-title">Contact Me....</h2>
+            <p><i class="fas fa-paper-plane"></i>pro@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>064743556737</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                required
+                id=""
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                id=""
+                cols="30"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy-right">
+        <p>copy-right @ Chandra Bhushan Made❤️ by DesignsWeb</p>
+      </div>
+    </div>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxaId3RsBUkfv2-coRHZ5BDnDEwgmBT4Mu6ySYPkVlmixUcNlumluSm5NXxdDZNj-xykA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent sucessfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
